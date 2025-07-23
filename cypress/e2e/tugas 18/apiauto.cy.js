@@ -41,7 +41,7 @@ describe ('API Cypress - TUGAS 18', ()=> {
       },
       body : {
         name : 'Dimas',
-        email : 'dimassaputra612@gmail.com'
+        email : 'dimassaputr@gmail.com'
       }
     }).then((response) => {
       expect(response.status).to.eq(200)
