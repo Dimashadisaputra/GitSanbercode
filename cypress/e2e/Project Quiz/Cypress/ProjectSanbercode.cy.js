@@ -21,7 +21,7 @@ describe ('scenario project', ()=> {
         Login.ResetWait()
     })
     
-    it('Dashboard T-Log-001', ()=>{
+    it('Dashboard T-Log-003', ()=>{
         Login.visit()
         Login.Username(data.validusername)
         Login.Password(data.validpassword)
