@@ -61,7 +61,7 @@ describe('scenario login', () => {
     cy.wait('@reqreset').its('response.statusCode').should('eq',302)
     cy.wait('@messages').its('response.statusCode').should('eq',304)
    //muncul alert reset password berhasil
-   cy.get('.orangehrm-card-container').should('contain','Reset Password link sent successfully')
+    cy.get('.orangehrm-card-container').should('contain','Reset Password link sent successfully')
   })
 })
 
